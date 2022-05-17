@@ -61,7 +61,7 @@
                 		</c:when>
 
                 		<c:when test="${orders.status==2}">
-                    		<td>等待收货</td>
+                    		<td>已签收</td>
                 		</c:when>
                 </c:choose>
             </tr>
